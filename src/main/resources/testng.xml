@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="用户测试套件">
+    <test name="test1">
+        <classes>
+            <class name="com.mine.api.cases.AddUser">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.mine.api.config.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
